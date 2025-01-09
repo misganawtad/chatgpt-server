@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
     try {
         const { message } = req.body;
         const completion = await openai.chat.completions.create({
-            model: "GPT-4o-mini", // Note: Changed from GPT-4o-mini as that's not a valid model
+            model: "gpt-3.5-turbo",
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
                 { role: "user", content: message }
