@@ -1,0 +1,11 @@
+{
+    "name": "chatgpt-server",
+    "version": "1.0.0",
+    "description": "ChatGPT server with system prompt",
+    "dependencies": {
+        "openai": "^4.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
