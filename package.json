@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "ChatGPT server with system prompt",
     "dependencies": {
-        "openai": "^4.0.0"
+        "openai": "^4.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3"
     },
     "engines": {
         "node": ">=18.0.0"
